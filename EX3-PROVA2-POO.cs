@@ -6,7 +6,7 @@ using System.Text;
 namespace Prova2ex3
 
 {
-    internal class pilhapeça
+   Public class pilhapeça
     {
 
         string[] produto;
