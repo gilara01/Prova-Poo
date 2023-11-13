@@ -15,7 +15,7 @@ namespace ClassLibrary1
            Bimestre(1,2,3,4);
         class Matéria {
              
-            Ano(1,2) -- vem da matéria
+            Ano(1,2) // vem da matéria
                 }
     }
 
