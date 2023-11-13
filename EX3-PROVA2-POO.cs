@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Prova2ex3
+namespace caQ01
 {
     internal class pilhapeça
     {
@@ -27,13 +27,20 @@ namespace Prova2ex3
 
                     for(int i = peçasseparadas.Length ; peçasseparadas.Length > 0; i--)
                     {
-                        produto.Append(peçasseparadas[i]);
+
+
+
+
+                        List<string> produtoslista = new List<string>(produto);
+                        produtoslista.Insert(0, peçasseparadas[i]);
                         Console.WriteLine("voltando" + produto[i]);
 
                         List<string> list = new List<string>(peçasseparadas);
                         list.RemoveAt(i);
                         peçasseparadas = list.ToArray();
+                        produto = produtoslista.ToArray();
                     }
+
                 }
                 else
                 {
