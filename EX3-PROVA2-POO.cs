@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace Prova2ex3
+
 {
     internal class pilhapeça
     {
@@ -32,11 +33,11 @@ namespace Prova2ex3
 
 
                         List<string> produtoslista = new List<string>(produto);
-                        produtoslista.Insert(0, peçasseparadas[i]);
-                        Console.WriteLine("voltando" + produto[i]);
+                        produtoslista.Insert(0, peçasseparadas[i-1]);
+                        Console.WriteLine("voltando" + produto[i-1]);
 
                         List<string> list = new List<string>(peçasseparadas);
-                        list.RemoveAt(i);
+                        list.RemoveAt(i-1);
                         peçasseparadas = list.ToArray();
                         produto = produtoslista.ToArray();
                     }
