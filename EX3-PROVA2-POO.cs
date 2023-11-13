@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Prova2q3
+namespace Prova2ex3
 {
     internal class pilhapeça
     {
