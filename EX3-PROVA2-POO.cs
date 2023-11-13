@@ -34,7 +34,7 @@ namespace Prova2ex3
 
                         List<string> produtoslista = new List<string>(produto);
                         produtoslista.Insert(0, peçasseparadas[i-1]);
-                        Console.WriteLine("voltando" + produto[i-1]);
+                        Console.WriteLine("voltando" + peçasseparadas[i-1]);
 
                         List<string> list = new List<string>(peçasseparadas);
                         list.RemoveAt(i-1);
